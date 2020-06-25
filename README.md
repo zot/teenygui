@@ -27,7 +27,7 @@ function initGui(func: GetObFunc): void
     </div>
 </div>
 ```
-3. Call bind on the dom node to show the object and provide a function that can update it
+3. Call bind on the DOM node to show the object and provide a function that can update it
 ```Typescript
 type UpdateFunc = (id: string, field: string, value: string) => void
 type HTMLOrSVG = HTMLElement | SVGElement
