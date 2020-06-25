@@ -79,4 +79,4 @@ function init() {
     $('#button-new-peep').onclick = () => makePeep();
 }
 window.onload = init;
-//# sourceMappingURL=app.js.map
+//# sourceMappingURL=example-app.js.map
