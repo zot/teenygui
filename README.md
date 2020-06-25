@@ -14,7 +14,7 @@ type GetObFunc = (id: ObId) => any
 function initGui(func: GetObFunc): void
 ```
 
-## 2. PREPARE A DOM NODE TO SHOW AN OBJECT
+## 2. TIE A DOM NODE TO AN OBJECT
 1. Retrieve or create the DOM node (if you create it, make sure to put it into the page, somewhere)
 1. You can use clone to copy an object in the DOM. It's easy to make a hidden "templates" div that contains elements you can copy
 ```HTML
