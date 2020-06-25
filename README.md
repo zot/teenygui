@@ -1,4 +1,4 @@
-# This is a neer-trivial HTML5 presentation framework
+# This is a near-trivial HTML5 presentation framework
 
 See [app.ts](app.ts) for an example of how to use it
 
