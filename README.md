@@ -16,7 +16,7 @@ function initGui(func: GetObFunc): void
 
 ## 2. TIE A DOM NODE TO AN OBJECT
 1. Retrieve or create the DOM node (if you create it, make sure to put it into the page, somewhere)
-1. You can use clone to copy an object in the DOM. It's easy to make a hidden "templates" div that contains elements you can copy
+2. You can use clone to copy an object in the DOM. It's easy to make a hidden "templates" div that contains elements you can copy
 ```HTML
 <div id='templates'>
     <div id='peep' class='peep'>
@@ -27,7 +27,7 @@ function initGui(func: GetObFunc): void
     </div>
 </div>
 ```
-1. Call bind on the dom node to show the object and provide a function that can update it
+3. Call bind on the dom node to show the object and provide a function that can update it
 ```Typescript
 type UpdateFunc = (id: string, field: string, value: string) => void
 type HTMLOrSVG = HTMLElement | SVGElement
