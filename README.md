@@ -1,6 +1,6 @@
 # This is a near-trivial HTML5 presentation framework
 
-See [app.ts](app.ts) for an example of how to use it
+See [example-app.ts](example-app.ts) for an example of how to use it
 
 # GETTING STARTED
 ## 1. INITIALIZE THE FRAMEWORK
